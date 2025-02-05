@@ -20,3 +20,50 @@
     background-color: white;
     border-radius: 15px;
 }
+
+/* Banner Section styles */
+/* Banner styles */
+.banner{
+    background-color: rgba(198, 228, 214, 1);
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    margin: 19px 160px;
+    border-radius: 15px;
+}
+
+.banner-content{
+    max-width: 622px;
+    padding: 117px 60px;
+
+}
+.banner-subtitle{
+    font-size: 24px;
+    font-weight: 600px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 56px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.banner-pic{
+    width: 474.03px;
+    height: 400px;
+    margin: 80px 64px;
+}
+.btn-primary{
+   background-color: rgba(0, 106, 80, 1);
+   font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600px;
+    padding: 17px 34px;
+    border-radius: 10px;
+    margin-top: 24px;
+    
+
+}
