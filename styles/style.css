@@ -4,6 +4,7 @@
 *{
     margin: 0px;
     padding: 0px;
+  
 }
 .navbar{
     display: flex;
@@ -140,3 +141,84 @@ background-color: rgba(9, 161, 92, 1);
 .box-btn3{
 background-color: rgba(255, 194, 57, 1);
 }
+/* News section style */
+.news-container{
+   h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 160px;
+    margin-bottom: 24px;
+   }
+   .news-title{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-left: 160px;
+   
+
+   }
+   
+}
+.box1{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    width: 1280px;
+    height: 402px;
+    margin: 32px 160px;
+   background-color: whitesmoke;
+    border-radius: 15px;
+    align-items: center;
+   
+}
+
+
+.box-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    
+}
+
+
+
+.box-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    padding-top: 12px;
+    padding-bottom: 32px;
+}
+.box-img {
+    width: 408px;
+    height: 306px;
+    border-radius: 25px;
+    margin: 48px 0px 48px 48px;
+  
+}
+.box1-right{
+  margin: 56px 48px 56px 0px;
+ 
+}
+.box2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    width: 1280px;
+    height: 402px;
+    margin: 32px 160px;
+   background-color: whitesmoke;
+    border-radius: 15px;
+    align-items: center;
+}
+.box-img2{
+    width: 408px;
+    height: 306px;
+    border-radius: 25px;
+    margin: 48px 48px 48px 0px;
+  
+}
+.box2-left{
+    margin: 56px 0px 56px 48px;
+    
+   
+  }
