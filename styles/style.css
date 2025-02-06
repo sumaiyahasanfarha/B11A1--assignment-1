@@ -20,6 +20,8 @@
     border-color: rgba(0, 106, 80, 1);
     background-color: white;
     border-radius: 15px;
+    cursor: pointer;
+    
 }
 
 /* Banner Section styles */
@@ -65,7 +67,8 @@
     padding: 17px 34px;
     border-radius: 10px;
     margin-top: 24px;
-    
+    cursor: pointer;
+    border: none;
 
 }
 /* Future Section Style */
@@ -131,6 +134,7 @@
     border: none;
     border-radius: 10px;
     padding: 11px 20px;
+    cursor: pointer;
 }
 .box-btn1{
    background-color: rgba(84, 144, 245, 1); 
@@ -332,4 +336,45 @@ background-color: rgba(255, 194, 57, 1);
 .donate-btn{
     text-align: center;
     
+}
+/* subscribe style */
+.subscribe-container{
+    width: 1280px;
+    height: 495px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 15px;
+    margin-top: 80px;
+}
+
+.subscribe-heading{
+    text-align: center;
+    padding: 80px 265px;
+} h1{
+    font-size: 40px;
+    font-weight: bold;
+    /* text-align: center;
+    padding: 80px 265px; */
+}
+p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    
+}
+
+
+.sub-box input[type=text] {
+    text-align: center;
+    width: 600px;
+    height: 55px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+}
+.sub-btn{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
 }
